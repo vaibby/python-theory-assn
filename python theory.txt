@@ -1,0 +1,85 @@
+1.Explain the significance of Python keywords and provide examples of five keywords.
+ Significance of Python Keywords
+Python keywords are reserved words that have a predefined meaning in the language and cannot be used as variable names, function names, or any other identifiers. These keywords help define the structure and logic of Python programs.
+
+Examples
+x = 20
+if x > 10:
+    print("x is greater than 10")    #if used for conditionl statement
+
+for i in range(5):
+    print(i)                         #for used for looping
+
+def greet():
+    print("Hello, World!")            # def used to define a function
+
+def add(a, b):
+    return a + b                     #return used to return a value from function
+
+while x < 5:
+    print(x)                         #used for loops that run as long as a condition is true
+    print(x)
+    x += 1
+
+
+2. Rules for Defining Identifiers in Python
+Identifiers are names given to variables, functions, classes, and other objects. They must follow these rules:
+
+Can contain letters (A-Z, a-z), digits (0-9), and underscores (_).
+Cannot start with a digit.
+Cannot be a Python keyword.
+Are case-sensitive (age and Age are different).
+Should be meaningful to improve code readability.
+Example: Valid and Invalid Identifiers
+valid_name = "John"  # Valid
+_age = 25            # Valid
+2name = "Alice"      # Invalid (cannot start with a digit)
+def = "function"     # Invalid (cannot use a keyword)
+
+
+
+3. Comments in Python and Their Usefulness
+Comments are lines in the code that are ignored by the Python interpreter. They are used to describe the purpose of the code, making it more readable and maintainable.
+
+Example of a Comment
+# This function calculates the square of a number
+def square(num):
+    return num * num
+Why are comments useful?
+
+Explain complex logic to other developers (or future self).
+Help in debugging by temporarily disabling code.
+Improve code maintainability.
+
+
+4. Importance of Proper Indentation in Python
+Indentation (spaces or tabs at the beginning of a line) is crucial in Python because it defines the structure of the code. Unlike other languages that use {} to define blocks, Python relies on indentation.
+
+Example of Proper Indentation
+if x > 10:
+    print("x is large")  # Indented block
+
+
+5. What Happens If Indentation Is Incorrect?
+Incorrect indentation results in an IndentationError or may change the program's behavior.
+
+Example of Incorrect Indentation
+if x > 10:
+print("x is large")  # Error: Expected an indented block
+
+
+6. Difference Between Expression and Statement in Python
+Expression
+An expression is a piece of code that evaluates to a value. Example:
+x = 5 + 3  # 5 + 3 is an expression that evaluates to 8
+
+Statement
+A statement is an instruction that performs an action but does not necessarily return a value. Example:
+x = 10  # Assignment statement
+print(x)  # Print statement
+
+Key Difference:
+
+An expression produces a value.
+A statement performs an action.
+
